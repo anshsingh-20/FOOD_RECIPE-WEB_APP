@@ -6,7 +6,7 @@ const API_KEY = "0ded48bf034847a6a9a87cb5ebd386b1";
 // const API_KEY = "be2233f5cdba4b29a751a7cc944b0cee";
 
 export default function Search({ fooditem, setfooditem }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("pizza");
   useEffect(() => {
     async function fetchfood() {
       const res = await fetch(`${URL}?query=${query}&apiKey=${API_KEY}`);
