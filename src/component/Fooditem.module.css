@@ -1,0 +1,28 @@
+.itemContainer {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.titlecontainer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393e47;
+  text-align: center;
+  padding: 10px;
+  font-family: popsils, sans-serif;
+}
+.button {
+  border-radius: 5px;
+  background-color: #33ee47;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
